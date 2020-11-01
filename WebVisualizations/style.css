@@ -1,15 +1,7 @@
-
-button {
-    text-align: right;
+h1 {
+    font-size: 40px;
 }
 
-.first-text {
-    text-align: "right"
-}
-
-.text-success {
-    color: teal;
-}
 .navbar li {
     display: inline-block;
     padding: 20px;
@@ -21,17 +13,21 @@ button {
     position: sticky;
   }
   
-  /* Getting rid of the default link styles here */
+ 
   .navbar li a {
     color: #000;
     text-decoration: none;
+  }
+
+  .navbar-brand a {
+      text-decoration-color: green;
   }
   
   /* Styling the header, giving it a height, a background color, and some top padding */
   .header {
     height: 200px;
     padding-top: 20px;
-    background: whitesmoke;
+    background:green;
   }
   
   /* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
