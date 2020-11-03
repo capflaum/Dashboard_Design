@@ -1,0 +1,21 @@
+.navbar-brand {
+    background-color: teal;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+h1 {
+    color: teal;
+}
+
+h2 {
+    font-size: 12px;
+}
+
+section {
+    padding: 20px;
+    background-color: white;
+    float:left;
+}
