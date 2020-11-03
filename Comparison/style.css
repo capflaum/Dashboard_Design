@@ -1,5 +1,5 @@
 .navbar-brand {
-    background-color: teal;
+    background-color: turquoise;
 }
 
 body {
@@ -7,15 +7,22 @@ body {
 }
 
 h1 {
+    font-size: 36px;
     color: teal;
 }
 
 h2 {
-    font-size: 12px;
+    font-size: 16px;
+}
+
+h3{
+    font-size: 20px;
+    text-align: center;
+    color: teal
 }
 
 section {
     padding: 20px;
+    float: center;
     background-color: white;
-    float:left;
 }

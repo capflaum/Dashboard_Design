@@ -1,8 +1,9 @@
 .navbar-brand {
-    background-color: teal;
+    background-color: turquoise;
 }
 
 h1 {
+    font-size: 36px;
     color: teal;
 }
 

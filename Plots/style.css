@@ -1,0 +1,17 @@
+.navbar-brand {
+    background-color: turquoise;
+}
+
+h1 {
+    font-size: 36px;
+    color: teal;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+#main-section{
+    width: 70%;
+    background-color: white;
+}

@@ -1,8 +1,9 @@
 .navbar-brand {
-    background-color: teal;
+    background-color: turquoise;
 }
 
 h1 {
+    font-size: 32px;
     color: teal;
 }
 
@@ -14,8 +15,16 @@ body {
     background-color: whitesmoke;
 }
 
-table {
-    border-spacing: 10px;
-    float: left;
+main {
+    align-content: center;
     background-color: white;
+}
+
+table {
+    align-content: center;
+    background-color: white;
+}
+
+thead {
+    border: "none"
 }

@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="Comparison/style.css">
 
-    <title>Latitude Analysis Dashboard</title>
+    <title>Comparison Visual Links</title>
   </head>
   <body>
     
@@ -24,12 +24,12 @@
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   Plots
                 </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Max Temperature</a>
-                <a class="dropdown-item" href="#">Humidity</a>
-                <a class="dropdown-item" href="#">Cloudiness</a>
-                <a class="dropdown-item" href="#">Windspeed</a>
-              </div>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="Plots/temperature.html">Max Temperature</a>
+                  <a class="dropdown-item" href="Plots/humidity.html">Humidity</a>
+                  <a class="dropdown-item" href="Plots/cloudiness.html">Cloudiness</a>
+                  <a class="dropdown-item" href="Plots/windspeed.html">Windspeed</a>
+                </div>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="comparison.html">Comparison</a>
@@ -49,9 +49,35 @@
                 <h1>Comparison: Latitude vs. X</h1>
                 <br>
                 <h2>Click any plot to get an in-depth analysis.</h2>
-                <img src="WebVisualizations\assets\images/Fig1.png" href="#" style="width: auto; height: 250px;">
-                <img src="WebVisualizations\assets\images/Fig2.png" href="#" style="width: auto; height: 250px;">
-                <img src="WebVisualizations\assets\images/Fig3.png" href="#" style="width: auto; height: 250px;">
-                <img src="WebVisualizations\assets\images/Fig4.png" href="#" style="width: auto; height: 250px;">
+                <br>
+                <br>
+                <div class="row">
+                  <div class = "col-md-6">
+                    <h3>vs. Temperature</h3>
+                    <a href="Plots\temperature.html">
+                    <img src="WebVisualizations\assets\images/Fig1.png"style="width: auto; height: 320px;">
+                    </a>
+                  </div>
+                  <div class="col-md-6">
+                    <h3>vs. Humidity</h3>
+                    <a href="Plots\humidity.html">
+                    <img src="WebVisualizations\assets\images/Fig2.png" href="Plots\humidity.html" style="width: auto; height: 320px;">
+                    </a>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class = "col-md-6">
+                    <h3>vs Cloudiness</h3>
+                    <a href="Plots\cloudiness.html">
+                    <img src="WebVisualizations\assets\images/Fig3.png" href="Plots\cloudiness.html" style="width: auto; height: 320px;">
+                    </a>
+                  </div>
+                  <div class="col-md-6">
+                    <h3>vs. Windspeed</h3> 
+                    <a href="Plots\windspeed.html">
+                    <img src="WebVisualizations\assets\images/Fig4.png" href="Plots\windspeed.html" style="width: auto; height: 320px;">
+                    </a>
+                  </div>   
+                </div>
             </section>
         </main>
