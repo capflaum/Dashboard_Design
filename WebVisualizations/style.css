@@ -1,6 +1,12 @@
 .navbar-brand {
     background-color: turquoise;
+    height: 60px;
+    padding-top: 10px;
+    padding-bottom: 5px;
 }
+.navbar-brand:hover {
+    opacity: 0.7;
+  }
 
 h1 {
     font-size: 36px;
@@ -13,12 +19,14 @@ h2 {
 
 body {
     background-color: whitesmoke;
+    position: relative;
+    padding-top: 15px;
 }
 
 #main-section{
     background-color: white;
-    width: 70%;
-    position: relative;
+    padding-top: 15px;
+
 }
 #page-pic{
     float:left;
@@ -26,6 +34,7 @@ body {
 
 #side-section{
     background-color: white;
-    width: 30%;
+
+    float: right;
 }
 

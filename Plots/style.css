@@ -1,5 +1,8 @@
 .navbar-brand {
     background-color: turquoise;
+    height: 60px;
+    padding-top: 10px;
+    padding-bottom: 5px;
 }
 
 h1 {
